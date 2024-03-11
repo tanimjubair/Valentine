@@ -1,0 +1,113 @@
+.parent {
+    height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 15px;
+    background-color:black;
+}
+.hr{
+    border: solid 1px black;
+    margin:10px;
+
+}
+.t1{
+    font-size: 5em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+.t2{
+    color: aliceblue;
+    font-size: 1.2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    
+    text-align: center;
+
+}
+.t3{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+.parent > div {
+    background-color: rgb(230, 33, 39);
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#d8{
+    grid-row: 1/3;
+    grid-column: 5/6;
+    background-color: aliceblue;
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTdqY2g1dTBldm9meGJpeGN5enFqdjQwZzM4eGJlZ3lzOWgwaWd5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qBfjJhOmNPTVWU0/giphy.gif);
+    background-size: cover;
+    background-repeat: repeat;
+}
+#d1 {
+    background-color: rgb(214, 214, 118);
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTdqY2g1dTBldm9meGJpeGN5enFqdjQwZzM4eGJlZ3lzOWgwaWd5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qBfjJhOmNPTVWU0/giphy.gif);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#d2 {
+    background-color: cadetblue;
+    grid-column: 2/5;
+    grid-row: 1/3;
+    background-image: url(https://www.shutterstock.com/image-illustration/night-starry-sky-trees-silhouettes-260nw-1499758331.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#d3 {
+    background-color: rgb(4, 139, 87);
+    grid-column: 5/6;
+    grid-row: 3/6;
+    background-image: url(https://images.pexels.com/photos/12456280/pexels-photo-12456280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#d4 {
+    background-color: blanchedalmond;
+    grid-column: 1/2;
+    grid-row: 3/6;
+    background-image: url(https://miro.medium.com/v2/resize:fit:685/0*SZXaAMEav878RdAL.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#d5 {
+    background-color: #100C08;
+    grid-column: 2/5;
+    grid-row: 3/6;
+    background-image: url(https://www.shutterstock.com/image-illustration/night-starry-sky-trees-silhouettes-260nw-1499758331.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#d6 {
+    background-color:cornflowerblue;
+    grid-column: 1/3;
+    grid-row: 6/9;
+    background-image: url(https://media.istockphoto.com/id/1276645382/sv/foto/choklad-sortiment-bakgrund-toppvy-av-olika-sorters-choklad.jpg?s=1024x1024&w=is&k=20&c=Vj_Siu5P7yECcRMOMbZikMnsFAVjjxPDoVoWej6B9eU=);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}   
+
+#d7 {
+    background-color:#100C08;
+    grid-column: 3/6;
+    grid-row: 6/9;
+    background-image: url(https://www.shutterstock.com/image-illustration/night-starry-sky-trees-silhouettes-260nw-1499758331.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
